@@ -1,0 +1,38 @@
+git help -->it provides frequentit used several git commands
+git help <cmd-name>
+
+git init --->create empty repository 
+
+git status
+-----
+staged files
+files which are added and they are ready to commit thes
+ file name will be displayed in green color
+
+Unstaged Files
+-----
+modified files will be displayed,need to commit and in red color
+
+Untracked Files
+----
+newly created files and in red color
+
+
+Git commands
+------------
+
+git add <file-name> to add file
+
+git rm --cached <fie-name > to ignore the file
+
+git add --a <add all files>
+
+git commit -m "Initial commit'
+
+git config --global user.name "abc"
+     git config --global user.email "abc@example.com" to take credentials
+
+
+git  commit -m 'commit-msg' will be stored in local machine
+
+
