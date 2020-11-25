@@ -1,0 +1,82 @@
+Git Commands
+------------
+
+-> GIT Commands we are going to use to perform operations in git repository
+
+1) git init : To represent our folder as git folder or it is used to create empty repository
+
+2) git status : This command will display status of current repository like Staged file,Un-Staged files and Un-Tracked Files.
+
+Staged Files
+------------
+-> files which are added they are ready to commit
+-> these file names will be displayed in green color
+
+Un-Staged Files
+---------------
+-> modified files  will be displayed here,we need to staged this files to commit
+-> these file names will be displayed in red color
+
+Un-Tracked Files
+----------------
+-> Newly created files, we need to stage them to commit
+-> These file names also will be diaplayed in red color
+
+3) git add : this command is used to add files to staging area (making files eligible for commit)
+
+ syntax: git add<file-name>
+
+ syntax: git add --a ---------------> to add all files at a time.
+
+4) git rm : This command is used to un-staged newly created file
+
+   syntax : git rm --cached<filename>
+
+
+5) git commit -m : this command is used to commit our changes to git local Repository.
+
+   Syntax : git commit - "commit message"
+
+Note : Git local repository will be availabe in our Machine only.
+
+
+*************** To commit our files to remote repository we should execute below commands **********
+
+
+6) git remeote add <repo-url> (this requires only first time)
+
+7) git push -u origin master : this command is used push files from local to central repository
+
+
+8) git reset : it is used to unstaged a file.
+
+
+
+       Syntax : git reset HEAD <file-name>
+
+9) git checkout : It is used to discard changes done in a file
+
+  Syntax : git checkout -- <file-name>
+
+10) git log : to check commits log we use log command
+
+    Syntax : git log
+
+11) git clone : to take existing project from repository to local system we will use git clone command
+
+    Syntax : git clone <repo-url>
+
+12) git pull : Before making any changes to file in local, it highly recommanded to take latest changes from                repository.
+               To take latest changes from repository we will use git pull command.
+
+
+         Syntax : git pull
+
+13) git stash : it is used to record current changes and make working tree clean.
+
+    
+14) git stash apply :
+
+15) git clone -b BranchName <repo-url> --> to create sub branch in GitHub repository 
+
+16) git branch : to see the branch name
